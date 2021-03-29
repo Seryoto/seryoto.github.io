@@ -1,0 +1,103 @@
+body {
+  background-color: #D8DBFD;
+}
+
+/*footer*/
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+/*footer*/
+
+
+
+.hat_header{
+  background: linear-gradient(45deg, #5C67E0, #9E5CE0);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 8px 0 8px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #BDC2FF;
+}
+
+.hat_logo{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
+  color:#FAFAFB;
+}
+.quote{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 40px;
+}
+#infoIc{
+  color: #FAFAFB;
+  font-size: 40px;
+  margin-top: 34px;
+  transition: font-size .2s linear;
+}
+
+#infoIc:hover{
+  font-size: 50px;
+}
+
+h2, h3{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+
+
+.info{
+font-size: 20px;
+font-family: "Quicksand", sans-serif;
+margin-top: 70px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: stretch;
+justify-content: space-around;
+ 
+}
+
+.info_box{
+  background: linear-gradient(45deg, #5C67E0, #9E5CE0);
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 40px;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 0 10px #BDC2FF;
+  transition: opacity .2s linear;
+}
+
+.info_txt{
+}
+
+
+.info_box:hover{
+ opacity: .8;
+}
+
+.info_pic {
+  width: 150px;
+}
+
+.footer_box{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  margin-right: 30px; 
+}
