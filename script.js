@@ -1,6 +1,6 @@
-let func = function(){
-    return alert('Сайт находится в разработке :D)
-          }
+setTimeout(() => {
+    alert('Сайт находится в разработке :D')
+}, 1000)
           
 setTimeout(func, 1000)
 
