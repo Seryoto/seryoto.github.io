@@ -2,7 +2,7 @@ let func = function(){
     alert('Сайт находится в разработке :D)
           }
           
-setTimeout(func, 500)
+setTimeout(func, 1000)
 
 if(window.innerWidth > 600){
     $("location").ready(
