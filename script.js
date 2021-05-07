@@ -1,4 +1,8 @@
-alert('Сайт находится в разработке :D')
+let func = func(){
+    alert('Сайт находится в разработке :D)
+          }
+          
+setTimeout(func, 500)
 
 if(window.innerWidth > 600){
     $("location").ready(
