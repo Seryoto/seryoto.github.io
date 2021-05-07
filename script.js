@@ -1,8 +1,4 @@
-setTimeout(() => {
-    alert('Сайт находится в разработке :D')
-}, 1000)
-          
-setTimeout(func, 1000)
+
 
 if(window.innerWidth > 600){
     $("location").ready(
@@ -27,3 +23,6 @@ if(window.innerWidth > 600){
 )
 }
 
+setTimeout(() => {
+    alert('Сайт находится в разработке :D')
+}, 1000);
