@@ -1,4 +1,4 @@
-
+alert('Сайт находится в разработке :D')
 
 if(window.innerWidth > 600){
     $("location").ready(
