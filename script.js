@@ -1,4 +1,4 @@
-let func = func(){
+let func = function(){
     alert('Сайт находится в разработке :D)
           }
           
