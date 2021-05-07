@@ -94,6 +94,7 @@ width: 100%;
 
 }
 
+
 .title{
     font-size: 40px;
     font-weight: 300;
@@ -154,3 +155,69 @@ width: 100%;
     to{ opacity: 1;
 }
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .prewiew{
+        display: flex;
+        margin-top: 500px;
+        margin-bottom: 0;
+        margin-left: 0;
+        justify-content: center;
+        color: white;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+     }
+
+     .title{
+        font-size: 30px;
+        font-weight: 300;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+      
+    }
+    
+    .head-bar{
+       display: none;
+    }
+
+    .main-text{
+        width: 500px;
+        color: gray;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+    .contact-btns{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+    
+    .contact-btn{
+        width: 100px;
+        display: block;
+        padding: 10px 20px 10px 20px;
+        margin: 50px 30px 0 0;
+        text-decoration: none;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 20px;
+        background: linear-gradient(45deg, rgb(25, 25, 145), rgb(17, 107, 73));
+    }
+
+}
+
+
+    .nav-barM{
+        display: none;
+    }

@@ -1,4 +1,7 @@
-$("location").ready(
+
+
+if(window.innerWidth > 600){
+    $("location").ready(
     function(){
         $(".head-bar").animate({
             "top": "25px"
@@ -15,7 +18,8 @@ $("location").ready(
         $(".prewiew").animate({
             "margin-left": "150px",
         }, 200);
-        $(".art-img-cont").fadeIn("500");
     }
 
 )
+}
+
