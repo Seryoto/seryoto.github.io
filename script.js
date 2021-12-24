@@ -25,4 +25,4 @@ if(window.innerWidth > 600){
 
 setTimeout(() => {
     alert('Сайт находится в разработке :D')
-}, 1000);
+},5000);
