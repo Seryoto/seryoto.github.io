@@ -138,14 +138,10 @@ width: 100%;
     }
 
     50%{
-        margin-left: 90px;
-        opacity: 1;
-    }
-
-    60%{
         margin-left: 100px;
         opacity: 1;
     }
+
 
 }
 
