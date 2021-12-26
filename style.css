@@ -2,31 +2,45 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(45deg, rgb(20, 20, 58),  #17161a) fixed;
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .content{
-   
+
 }
 
 
 
 .head-bar{
 position: absolute;
-top: -100px;
+top: 100px;
 left: 50px;
 right: 50px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 margin: 20px 50px 30px 50px;
+
+}
+
+@keyframes anim2 {
+    from{
+       top: -200px;
+       opacity: 0;
+    }
+
+    to{
+        top: 100px;
+        opacity: 1;
+    }
+
 }
 
 .bar-logo{
     display: flex;
     align-items: center;
-    
+
 }
 
 
@@ -42,7 +56,22 @@ margin: 20px 50px 30px 50px;
     margin-right: 10px;
     height: 30px;
     width: 30px;
-    
+    transition: all 1 s linear;
+}
+
+.bar-logo img:hover{
+    animation: roll 1000ms infinite;
+}
+
+@keyframes roll {
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+
 }
 
 
@@ -79,19 +108,55 @@ width: 100%;
 
 .nav-btns:hover{
    opacity: 1;
-   
-    
+
+
     }
 
 .prewiew{
     display: flex;
     margin-top: 250px;
-    margin-left: -500px;
+    margin-left: 100px;
     color: white;
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 500px;
+    animation: anim 3s;
+    transition: all 1.5s;
 
+}
+
+@keyframes anim {
+    0%{
+       margin-left: -200px;
+       opacity: 0;
+    }
+
+    30%{
+      margin-left: 150px
+      opacity: 0.6;
+
+    }
+
+    50%{
+        margin-left: 90px;
+        opacity: 1;
+    }
+
+    60%{
+        margin-left: 100px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 
@@ -100,7 +165,7 @@ width: 100%;
     font-weight: 300;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
-  
+
 }
 .main-text{
     width: 500px;
@@ -177,9 +242,9 @@ width: 100%;
         font-weight: 300;
         font-family: 'Julius Sans One', sans-serif;
         font-weight: bold;
-      
+
     }
-    
+
     .head-bar{
        display: none;
     }
@@ -199,7 +264,7 @@ width: 100%;
         text-transform: uppercase;
 
     }
-    
+
     .contact-btn{
         width: 100px;
         display: block;
