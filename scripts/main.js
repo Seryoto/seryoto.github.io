@@ -1,0 +1,20 @@
+const navBtnBlock = document.getElementById('nav-btn-block');
+const navBtn = document.querySelector('.nav-btn');
+
+
+navBtnBlock.addEventListener('mouseover', (event)=>{
+  if(!(event.target.classList.contains('active-nav-btn')) && event.target.classList.contains('nav-btn')){
+    navBtn.classList.remove('active-nav-btn');
+    event.target.classList.add('active-nav-btn');
+  }
+});
+
+
+navBtnBlock.addEventListener('mouseout', (event)=>{
+
+
+  event.target.classList.remove('active-nav-btn');
+  navBtn.classList.add('active-nav-btn');
+
+
+});
