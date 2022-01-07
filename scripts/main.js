@@ -18,3 +18,12 @@ navBtnBlock.addEventListener('mouseout', (event)=>{
 
 
 });
+
+//glass movement
+
+const glassPath = document.querySelector('.cls-1');
+const glassSvg = document.querySelector('.land-svg');
+
+glassPath.addEventListener('mouseover',(event)=>{
+  glassSvg.style.animation = 'glassMove 1s linear';
+});

@@ -1,0 +1,38 @@
+.form-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.login-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 300px;
+
+  background: gray;
+
+  border-radius: 35px;
+}
+
+.login-form input{
+  margin: 20px 0 20px 0;
+
+  height: 50px;
+
+  border: 0;
+  border-radius: 35px;
+}
+
+.login-icon{
+  position: relative;
+  top: -30px;
+  height: 70px;
+  width: 70px;
+  background: blue;
+
+  border-radius: 100%;
+}
